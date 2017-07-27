@@ -1,0 +1,60 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package models;
+
+import java.util.List;
+
+/**
+ *
+ * @author Ali
+ */
+public class Location {
+    private int id;
+    private String name;
+    private List<Person> persons;
+
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * @return the persons
+     */
+    public List<Person> getPersons() {
+        return persons;
+    }
+
+    /**
+     * @param persons the persons to set
+     */
+    public void setPersons(List<Person> persons) {
+        this.persons = persons;
+    }
+}

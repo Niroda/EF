@@ -1,3 +1,6 @@
+# NOTE!
+Do **NOT** use this code in a real project. I created this messy code just to practice/learn Java!
+
 # EF library
 This java library allows us to use **type safety** to deal with the databse using **Lambda expressions** instead of using **SQL QUERIES**
 It supports relationships as well, one to many and many to many
